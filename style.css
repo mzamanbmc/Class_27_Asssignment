@@ -32,12 +32,11 @@
     float: right;
 }
 .headerSection .menu ul{
-    display: flex;
-    justify-content: center;
     margin-top:8px;
 }
 .headerSection .menu ul li{
     list-style-type: none;
+    display: inline-block;
     margin: 0px 20px;
 }
 .headerSection .menu ul li a{
@@ -297,6 +296,14 @@
 
 
 @media (max-width:800px) {
+    
+    .headerSection .menu ul {
+        text-align: center;
+    }
+    .headerSection .menu ul li {
+        margin: 0px 10px;
+    }
+    
     .bannerSection {
         padding: 130px 0px;
     }
@@ -344,23 +351,110 @@
         font-size: 35px;
     }
 
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 300px){
+    .headerSection .logo h2 {
+        font-size: 25px;
+    }
+    .headerSection {
+        padding: 30px 0 50px;
+    }
+    .headerSection .menu ul {
+        margin-top: 8px;
+    }
+    .headerSection .menu ul li a{
+        font-size: 12px;
+        padding-top: 8px;
+        display: inline-block;
+    }
+    .bannerSection {
+        padding: 70px 0px;
+    }
+    .bannerSection h1 {
+        font-size: 22px;
+    }
+    .bannerSection p {
+        font-size: 12px;
+        padding-bottom: 25px;
+    }
+    .bannerSection a {
+        font-size: 10px;
+    }
+    .serviceSection .text p {
+        padding: 0 30px;
+        font-size: 12px;
+    }
+    .serviceSection .text h2 {
+        font-size: 24px;
+    }
+    .serviceSection .serviceBx .box {
+        width: 100%;
+    }
+    .serviceSection .serviceBx .box h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .serviceSection .serviceBx .box p {
+        font-size: 12px;
+    }
+    .aboutSection .container .textRight {
+        padding: 20px 10px;
+    }
+    .aboutSection {
+        margin-top: 350px !important;
+        margin-bottom: -60px !important;
+        padding-top: 40px;
+    }
+    .aboutSection h2 {
+        font-size: 24px;
+    }
+    .aboutSection p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .aboutSection .container .imageLeft {
+        padding: 0px;
+    }
+    .aboutSection .container .textRight .part h3 {
+        font-size: 18px;
+    }
+    .aboutSection .text {
+        padding: 0 0 30px;
+    }
+    .contactSection {
+        padding: 40px 10px;
+        text-align: justify;
+    }
+    .contactSection .text {
+        padding-bottom: 30px;
+    }
+    .contactSection .option .icon {
+        display: inline-block;
+        padding: 10px;
+    }
+    .contactSection .text h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .contactSection .text p {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+    .contactSection .option {
+        text-align: center;
+        font-size: 12px;
+    }
+    .footerMenu {
+        padding: 12px 0;
+    }
+    .footerMenu ul li {
+        margin: 0 7px;
+    }
+    .footerMenu ul li a {
+        font-size: 14px;
+    }
+    .footer p {
+        padding: 10px;
+        font-size: 10px;
+    }
+}
