@@ -1,0 +1,366 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.fullWebsite{
+    max-width: 1200px;
+    border: 1px solid rgba(128, 128, 128, 0.08);
+}
+
+
+/* Header Section */
+
+
+.headerSection{
+    background: #22C3A3;
+    height: 30px;
+    padding: 30px;
+}
+.headerSection .logo{
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+.headerSection .logo h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.headerSection .menu{
+    float: right;
+}
+.headerSection .menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top:8px;
+}
+.headerSection .menu ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+.headerSection .menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.headerSection .menu ul li a:hover{
+    color: #03291E;
+}
+
+/* Banner Section */
+
+
+.bannerSection{
+    background-image: url(https://i.ibb.co/ysM4FWt/header-bg01.jpg);
+    text-align: center;
+    padding: 200px 0px;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+.bannerSection h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.bannerSection p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.bannerSection a{
+    text-decoration: none;
+    color: #fff;
+    /* font-weight: bold; */
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-family: sans-serif;
+}
+.bannerSection a:hover{
+    color: #22C3A3;
+    background: #03291E;
+    box-shadow: 5px 5px 20px #fff, -5px -5px 20px #fff;
+}
+
+
+/* Our Service Section */
+
+
+.serviceSection {
+    text-align: center;
+    margin: 60px 0 10px;
+    color: #555555;
+    height: 25em;
+}
+
+.serviceSection .text h2{
+    font-size: 40px;
+}
+.serviceSection .text p{
+    margin: 30px 0 60px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.serviceSection .serviceBx{
+    /* clear: both; */
+    margin-bottom: 100px;
+
+}
+.serviceSection .serviceBx .box {
+    padding: 0 20px;
+    float: left;
+    width: 20%;
+}
+
+.serviceSection .serviceBx .box span{
+    font-size: 40px;
+    color: #22C3A3;
+}
+.serviceSection .serviceBx .box h3{
+    font-size: 26px;
+    margin: 15px 0;
+    font-family: sans-serif;
+}
+
+.serviceSection .serviceBx .box p{
+    font-family: sans-serif;
+}
+
+
+
+/* About Us Section */
+
+
+.aboutSection{
+    text-align: center;
+    color: #555555;
+    font-family: sans-serif;
+    padding: 0 20px;
+    border-top: 2px solid #22C3A3;
+}
+.aboutSection .text{
+    padding: 50px;
+}
+.aboutSection h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutSection .container{
+    padding-bottom: 100px;
+}
+.aboutSection .container .imageLeft{
+    float: left;
+    margin-right: 40px;
+    width: 40%;
+}
+.aboutSection .container img{
+    width: 100%;
+}
+.aboutSection .container .textRight{
+    text-align: left;
+}
+.aboutSection .container .textRight .part{
+    padding-bottom: 15px;
+}
+.aboutSection .container .textRight .part h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+/* Contact Us Section */
+
+
+.contactSection{
+    text-align: center;
+    background: #F6F6F6;
+    padding: 80px 100px;
+    color: #555555;
+    font-family: sans-serif;
+}
+.contactSection .text{
+    padding-bottom: 50px;
+}
+.contactSection .text h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+.contactSection .text p{}
+.contactSection .option{
+    /* display: flex; */
+    
+}
+.contactSection .option .icon{
+    display: inline-block;
+    padding: 20px;
+}
+.contactSection .option .icon i{
+    color: #22C3A3;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.contactSection .option .icon span{}
+
+
+
+/* Footer Menu Section */
+
+
+
+.footerMenu{
+    background: #22C3A3;
+    text-align: center;
+    padding: 20px 0;
+}
+.footerMenu ul{
+    display: inline-block;
+}
+.footerMenu ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+.footerMenu ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* footer Section */
+
+
+.footer{
+    text-align: center;
+    background: #222;
+    color: #555555;
+    font-family: sans-serif;
+}
+.footer p{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1100px) {
+    .headerSection .logo {
+        margin-top: -16px;
+        width: 100%;
+        text-align: center;
+    }
+    .headerSection .menu {
+        margin-top: 7px;
+        width: 100%;
+    }
+    .aboutSection .container .imageLeft {
+        width: 100%;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+    .aboutSection .container img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .aboutSection .container .textRight {
+        text-align: center;
+        padding: 20px 50px;
+    }
+    .aboutSection .container .textRight .part h3 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .serviceSection .serviceBx .box h3 {
+        font-size: 20px;
+    }
+    .serviceSection .serviceBx .box span {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .bannerSection {
+        padding: 130px 0px;
+    }
+    .serviceSection .serviceBx {
+        margin-bottom: 100px;
+    }
+    .serviceSection .serviceBx .box {
+        width: 50%;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+    }
+    .serviceSection {
+        margin-top: 30px;
+        height: 26em;
+    }
+    .serviceSection .text p {
+        padding: 0 50px;
+    }
+    .contactSection .option .icon {
+        display: block;
+    }
+    .aboutSection{
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width:600px){
+    .headerSection .menu ul li a {
+        font-size: 12px;
+    }
+    .bannerSection a {
+        text-decoration: none;
+        color: #fff;
+        /* font-weight: bold; */
+        border: 2px solid #fff;
+        display: inline-block;
+        padding: 7px 25px;
+        font-size: 14px;
+    }
+    .bannerSection p {
+        font-size: 14px;
+    }
+    .bannerSection h1 {
+        font-size: 35px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
